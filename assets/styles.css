@@ -10,9 +10,16 @@ html {
 }
 
 body {
-  height: 5000px;
+  height: 100%;
+  overflow-x: hidden;
 }
-
+.mitte {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  margin: auto;
+  margin-top: 80vh;
+}
 #wrap {
   scroll-margin-top: 130px;
 }
@@ -43,7 +50,7 @@ ul li {
 }
 
 button {
-  cursor: pointer;
+  cursor: pointer !important;
 }
 
 .scrollt {
@@ -52,6 +59,11 @@ button {
 }
 
 /* NAVIGATION */
+#navfiller {
+  position: relative;
+  height: 5rem;
+}
+
 .navb {
   position: relative;
   top: 50px;
@@ -63,11 +75,46 @@ button {
 }
 
 #navbar {
+  position: absolute;
+  top: 40%;
   text-align: center;
   width: 100%;
   color: white;
   z-index: 999;
   transition: 0.3s;
+}
+#hintergrund img {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  object-position: ;
+  align-items: center;
+  opacity: 4%;
+  animation: Pulsate 10s ease infinite;
+  overflow: hidden;
+}
+
+@-webkit-keyframes Pulsate /*Safari and Chrome*/
+{
+0% {opacity:0.4}
+40% {opacity:0.1}
+80% {opacity:0.4}
+100% {opacity:0.4}
+}
+
+@-webkit-keyframes Pulsate {
+0% {opacity:0.4}
+40% {opacity:0.1}
+80% {opacity:0.4}
+100% {opacity:0.4}
+}
+
+@-moz-keyframes Pulsate {
+0% {opacity:0.4}
+40% {opacity:0.1}
+80% {opacity:0.4}
+100% {opacity:0.4}
 }
 
 #navwrapper {
@@ -183,6 +230,7 @@ button {
   height: 130px;
   line-height: 18px;
   position: fixed;
+  top: 0;
   background-color: #fff !important;
   transition: 0.3s;
   color: #343a40 !important;
@@ -230,6 +278,9 @@ button {
   transition: 0.3s;
 }
 
+#start {
+  position: relative;
+}
 /* CONTENT */
 /* allgemein */
 .grid-container {
@@ -237,8 +288,8 @@ button {
 }
 
 .grid-container--fit {
-  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-  grid-template-rows: 20em 20em 20em;
+  grid-template-columns: repeat(auto-fit, minmax(40em, 1fr));
+  grid-template-rows: 40em 40em 40em;
 }
 
 .grid-element {
@@ -246,6 +297,69 @@ button {
   border: 2px solid;
   position: relative;
   overflow: hidden;
+}
+
+.unteruberschrift {
+  text-align: center;
+  background-color: #fff;
+  color: #343a40;
+  padding: 0.5em;
+  font-size: 1.5em;
+}
+
+#los {
+  background-color: rgba(0,0,0,0);
+  border: none;
+}
+
+.arrows {
+  width: 60px;
+  height: 72px;
+  position: absolute;
+  margin: auto;
+  align-content: center;
+  top: 50px;
+  bottom: 20px;
+  left: -25px;
+}
+
+.arrows path {
+  stroke: #fff;
+  fill: transparent;
+  stroke-width: 1px;  
+  animation: arrow 2s infinite;
+  -webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+  animation-delay:-1s;
+  -webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+  animation-delay:-0.5s;
+  -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 { 
+  animation-delay:0s;
+  -webkit-animation-delay:0s; /* Safari 和 Chrome */
 }
 
 .uberschrift {
@@ -293,7 +407,9 @@ button {
 }
 
 .infobild {
-  margin-top: 10em;
+  margin: auto;
+  margin-top: 9em;
+  font-size: 2em;
 }
 
 /* flip the pane when hovered */
@@ -306,7 +422,7 @@ button {
 .front,
 .back {
   width: 100%;
-  height: 20em;
+  height: 40em;
 }
 
 
@@ -361,14 +477,14 @@ button {
   top: 11.25em;
 }
 
-iframe {
+iframe .modell {
   position: relative;
   top: -40px;
 }
 
-img {
+.img__img {
   width: 100%;
-  height: 20em;
+  height: 40em;
   object-fit: cover;
   object-position: ;
   position: relative;
@@ -377,7 +493,7 @@ img {
 
 .img__wrap {
   position: relative;
-  height: 20em;
+  height: 40em;
   width: 100%;
 }
 
@@ -532,7 +648,6 @@ img {
 }
 #burger {
   position: fixed;
-  float: right;
   visibility: hidden;
 }
 .burger {
@@ -645,7 +760,34 @@ img {
 	text-decoration: none;
 }
 
+footer {
+  background-color: #343a40;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  overflow: hidden;
+}
 
+#bta-link {
+  position: absolute;
+  margin-left: 35%;
+  z-index: 50;
+  margin-top: 25px;
+}
+
+div.footertext {
+  color: white;
+  position: relative;
+  top: 25px;
+  width: 100%;
+}
+
+h2.footeruschrift {
+  color: white;
+  font-weight: thin;
+  position: relative;
+  top: -25px;
+}
 
 @media (max-width: 800px) {
 h1 {
@@ -691,6 +833,10 @@ ul li {
 
 .navb:hover {
   color: #fff !important;
+}
+
+#burger {
+  float: right;
 }
 
 #navbar {
@@ -754,6 +900,23 @@ ul li {
   }
 }
 
+.grid-container--fit_nav {
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.grid-element_nav {
+  color: #fff;
+  border: 2px solid;
+  position: relative;
+  overflow: hidden;
+}
+
+.introduction {
+  position: relative;
+  top: 3vh;
+}
+
 .selectSection {
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
@@ -793,6 +956,7 @@ ul li {
 #navbar.shrink {
   height: 80px;
   line-height: 18px;
+  top: 0;
   position: fixed;
   background-color: #fff !important;
   transition: 0.3s;
@@ -809,11 +973,38 @@ ul li {
   transition: 0.3s;
 }
 
+.grid-container--fit {
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  grid-template-rows: 20em 20em 20em;
+}
+
+.flip-container,
+.front,
+.back {
+  height: 20em;
+}
+
+.img__img {
+  height: 20em;
+}
+
+.img__wrap {
+  height: 20em;
+}
+
+.infobild {
+  margin-top: 10em;
+  font-size: 1em;
+}
+
 .mobilecontainer {
   visibility: visible !important;
 }
-}
 
+.mitte {
+ margin-top: 70vh;
+}
+}
 
 
 
