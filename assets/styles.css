@@ -6,7 +6,7 @@ html {
 * {
   margin: 0;
   padding: 0;
-  font-family: helvetica;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -26,7 +26,7 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 5rem;
+  font-size: 4rem;
   top: 0.5em;
   position: relative;
 }
@@ -53,6 +53,26 @@ button {
   cursor: pointer !important;
 }
 
+p.img_icon {
+  border: 2px solid ;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.25;
+  padding: 5px;
+  border-radius: 25%;
+  top: 5px;
+  left: 5px;
+  background: #343a40;
+  font-size: 1.5em;
+}
+
+.fade {
+  margin: 0;
+  padding: 0;
+  background-color: lightgreen;
+  opacity: 1;
+}
+
 .scrollt {
   text-decoration: none;
   color: white;
@@ -67,7 +87,8 @@ button {
 .navb {
   position: relative;
   top: 50px;
-  color: #87CEEB !important;
+  color: #D0DDE8 !important;
+  /*color: #87CEEB !important;*/
 }
 
 .navb:hover {
@@ -90,31 +111,31 @@ button {
   object-fit: cover;
   object-position: ;
   align-items: center;
-  opacity: 4%;
-  animation: Pulsate 10s ease infinite;
+  opacity: 3%;
+  animation: Pulsate 15s ease infinite;
   overflow: hidden;
 }
 
 @-webkit-keyframes Pulsate /*Safari and Chrome*/
 {
-0% {opacity:0.4}
+0% {opacity:0.3}
 40% {opacity:0.1}
-80% {opacity:0.4}
-100% {opacity:0.4}
+80% {opacity:0.3}
+100% {opacity:0.3}
 }
 
 @-webkit-keyframes Pulsate {
-0% {opacity:0.4}
+0% {opacity:0.3}
 40% {opacity:0.1}
-80% {opacity:0.4}
-100% {opacity:0.4}
+80% {opacity:0.3}
+100% {opacity:0.3}
 }
 
 @-moz-keyframes Pulsate {
-0% {opacity:0.4}
+0% {opacity:0.3}
 40% {opacity:0.1}
-80% {opacity:0.4}
-100% {opacity:0.4}
+80% {opacity:0.3}
+100% {opacity:0.3}
 }
 
 #navwrapper {
@@ -213,6 +234,7 @@ button {
 
 .activenav {
   color: white !important;
+  font-weight: 500;
 }
 
 /* hides every element except the first */
@@ -393,7 +415,7 @@ button {
   color: white;
   transition: 0.1s;
   position: absolute;
-  margin-top: 15em;
+  margin-top: 25em;
   outline: none;
 }
 
@@ -403,7 +425,8 @@ button {
 }
 
 .infoflip {
-  margin-top: -10em;
+  margin-top: -5em;
+  font-size: 2em;
 }
 
 .infobild {
@@ -474,10 +497,10 @@ button {
   font-size: 1.5em;
   font-weight: 800;
   left: 0.5em;
-  top: 11.25em;
+  top: 24.5em;
 }
 
-iframe .modell {
+iframe.modell {
   position: relative;
   top: -40px;
 }
@@ -489,6 +512,10 @@ iframe .modell {
   object-position: ;
   position: relative;
   align-items: center;
+}
+
+img.bewegen {
+  object-position: 
 }
 
 .img__wrap {
@@ -792,7 +819,7 @@ h2.footeruschrift {
 @media (max-width: 800px) {
 h1 {
   text-align: center;
-  font-size: 8vw;
+  font-size: 6vw;
   top: 0.5em;
   position: relative;
 }
@@ -813,6 +840,8 @@ ul li {
   display: inline-table;
   margin-left: -1.5em;
   padding-left: -1.5em;
+  font-size: 0.8em !important;
+  font-weight: 200 !important;
 }
 
 #wrap {
@@ -990,6 +1019,41 @@ ul li {
 
 .img__wrap {
   height: 20em;
+}
+
+.infoflip {
+  margin-top: -9em;
+  font-size: 1em;
+}
+
+.buttonflip {
+  width: 100px;
+  height: 100px;
+  top: 0;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0) !important;
+  overflow: hidden;
+  color: white;
+  transition: 0.1s;
+  position: absolute;
+  margin-top: 15em;
+  outline: none;
+}
+
+.fbutton {
+  position: absolute;
+  align-items: center;
+  outline: none;
+  border: 2px solid white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  z-index: 3;
+  font-size: 1.5em;
+  font-weight: 800;
+  left: 0.5em;
+  top: 11.2em;
 }
 
 .infobild {
