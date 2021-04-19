@@ -4,6 +4,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
     <!--<script src="assets/script.js" type="text/javascript"></script>-->
   </head>
   <!-- begin snippet: js hide: false -->
@@ -19,7 +22,7 @@
       <div id="navfiller"></div>
       <div id="navbar" class="navbar navbar-dark bg-primary navbar-fixed-top selectSection">
         <a href="#navwrapper" class="scrollt">
-          <h1 id="titel">Weiterverarbeitung</h1>
+          <h1 id="titel">WEITERVERARBEITUNG</h1>
         </a>
         <ul>
           <li class="nav-item"><button onclick="location.href='#wrap'" type="button" data-number="1" class="activenav navb">Bindearten</button></li>
@@ -40,7 +43,7 @@
             <li class="nav-item"><button onclick="location.href='#wrap'" type="button" data-number="1" class="activenav mobilenavb">Bindearten</button></li>
             <li class="nav-item"><button onclick="location.href='#wrap'" type="button" data-number="2" class="mobilenavb">Falzarten</button></li>
             <li class="nav-item"><button onclick="location.href='#wrap'" type="button" data-number="3" class="mobilenavb">Veredelungen</button></li>
-            <li class="nav-item"><button onclick="location.href='#wrap'" type="button" data-number="4" class="mobilenavb">Schneiden</button></li>
+            <li class="nav-item"><button onclick="location.href='#wrap'" type="button" data-number="4" class="mobilenavb">Weiteres</button></li>
           </ul>
         </div>
       </div>
@@ -70,16 +73,17 @@
       <!-- SECTION 1 -->
       <section id="content1" class="contentsec" data-number="1">
         <div>
-          <h1 class="uberschrift">Bindarten</h1>
+          <h1 class="uberschrift">BINDEARTEN</h1>
         </div>
         <div class="grid-container grid-container--fit">
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
+                    <p class="img_icon">3D</p>
                       <img class="img__img" src="https://www.bubu.ch/fileadmin/user_upload/bubu/images/Leistungen/Bindearten/Leistungen_Bindearten_Fadenheftung.jpg">
                       <div class="img__description_layer">
                         <button class="hvr-radial-out buttonflip">
@@ -109,12 +113,13 @@
             </div>
           </div>
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
+                    <p class="img_icon">3D</p>
                       <img class="img__img" src="https://www.bubu.ch/fileadmin/user_upload/bubu/images/Leistungen/Bindearten/Bindearten_Wiro.jpg">
                       <div class="img__description_layer">
                         <button class="hvr-radial-out buttonflip">
@@ -144,7 +149,7 @@
             </div>
           </div>
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
@@ -179,7 +184,7 @@
             </div>
           </div>
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
@@ -197,7 +202,7 @@
             </div>
           </div>
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
@@ -215,7 +220,7 @@
             </div>
           </div>
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
@@ -233,7 +238,7 @@
             </div>
           </div>
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
@@ -251,7 +256,7 @@
             </div>
           </div>
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
@@ -269,7 +274,7 @@
             </div>
           </div>
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
@@ -294,18 +299,18 @@
       <!-- SECTION 2 -->
       <section id="content2" class="contentsec" data-number="2">
         <div>
-          <h1 class="uberschrift">Falzarten</h1>
+          <h1 class="uberschrift">FALZARTEN</h1>
         </div>
 
         <div class="grid-container grid-container--fit">
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
-                      <img class="img__img" src="https://www.grafikatur.at/wp-content/uploads/2016/03/grafikatur_print_wohlgemerkt_folder.jpg">
+                      <img class="img__img" src="https://www.grafikatur.at/wp-content/uploads/2016/03/grafikatur_print_wohlgemerkt_folder.jpg" loading="lazy">
                       <div class="img__description_layer">
                         <p class="infobild img__description">WICKELFALZ</p>
                       </div>
@@ -317,13 +322,13 @@
             </div>
           </div>
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
-                      <img class="img__img" src="https://www.flyeralarm.com/white/assets/groesse2/69/45/AS-2686945.jpg">
+                      <img class="img__img" src="https://www.flyeralarm.com/white/assets/groesse2/69/45/AS-2686945.jpg" loading="lazy">
                       <div class="img__description_layer">
                         <p class="infobild img__description">LEPORELLOFALZ</p>
                       </div>
@@ -335,13 +340,13 @@
             </div>
           </div>
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
-                      <img class="img__img" src="https://i.postimg.cc/667d4XLw/Doppelparallelfalz.png">
+                      <img class="img__img" src="https://i.postimg.cc/667d4XLw/Doppelparallelfalz.png" loading="lazy">
                       <div class="img__description_layer">
                         <p class="infobild img__description">MITTELPARALLELFALZ</p>
                       </div>
@@ -353,13 +358,13 @@
             </div>
           </div>
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
-                      <img class="img__img" src="https://www.viaprinto.de/media/images/productinfo/flyer_kreuzfalz_mitte_x2.rev.1571762838000.jpg">
+                      <img class="img__img" src="https://www.viaprinto.de/media/images/productinfo/flyer_kreuzfalz_mitte_x2.rev.1571762838000.jpg" loading="lazy">
                       <div class="img__description_layer">
                         <p class="infobild img__description">KREUZFALZ</p>
                       </div>
@@ -371,13 +376,13 @@
             </div>
           </div>
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
-                      <img class="img__img" src="https://www.diedruckdienstleister.de/out/pictures/master/product/1/guenstig_altarfalz-flyer_mit_3_bruechen_mit_dem_eigenen_layout_bedrucken_lassen.jpg">
+                      <img class="img__img" src="https://www.diedruckdienstleister.de/out/pictures/master/product/1/guenstig_altarfalz-flyer_mit_3_bruechen_mit_dem_eigenen_layout_bedrucken_lassen.jpg" loading="lazy">
                       <div class="img__description_layer">
                         <button class="hvr-radial-out buttonflip">
                           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hand-finger" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -399,20 +404,20 @@
                       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                       <path d="M9 11l-4 4l4 4m-4 -4h11a4 4 0 0 0 0 -8h-1" />
                     </svg></button>
-                  <iframe class="modell" title="Weiterverarbeitung" frameborder="0" width="100%" height="100%" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/faf947997ac4410d9cf264a15dafab82/embed?ui_theme=dark">
+                  <iframe class="modell" title="Weiterverarbeitung" frameborder="0" width="100%" height="100%" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/faf947997ac4410d9cf264a15dafab82/embed?ui_theme=dark" loading="lazy">
                   </iframe>
                 </div>
               </div>
             </div>
           </div>
           
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
-                      <img class="img__img" src="https://copyclara.de/sites/default/files/styles/maschine/public/nuten-rillen_0.jpg?itok=8gtQZLMc">
+                      <img class="img__img" src="https://copyclara.de/sites/default/files/styles/maschine/public/nuten-rillen_0.jpg?itok=8gtQZLMc" loading="lazy">
                       <div class="img__description_layer">
                         <p class="infobild img__description">RILLEN</p>
                       </div>
@@ -424,13 +429,13 @@
             </div>
           </div>
           
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
-                      <img class="img__img" src="https://copyclara.de/sites/default/files/styles/maschine/public/Oesen_0.jpg?itok=gof4-fPA">
+                      <img class="img__img bewegen" src="https://copyclara.de/sites/default/files/styles/maschine/public/Oesen_0.jpg?itok=gof4-fPA" loading="lazy">
                       <div class="img__description_layer">
                         <p class="infobild img__description">ÖSEN</p>
                       </div>
@@ -442,13 +447,13 @@
             </div>
           </div>
           
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
-                      <img class="img__img" src="https://copyclara.de/sites/default/files/styles/maschine/public/Planfaltung_0.jpg?itok=m8dQfnh-">
+                      <img class="img__img" src="https://copyclara.de/sites/default/files/styles/maschine/public/Planfaltung_0.jpg?itok=m8dQfnh-" loading="lazy">
                       <div class="img__description_layer">
                         <p class="infobild img__description">PLANFALTUNG</p>
                       </div>
@@ -467,17 +472,18 @@
       <!-- SECTION 3 -->
       <section id="content3" class="veredelungen contentsec" data-number="3">
         <h1 class="uberschrift">
-          Veredelungen
+          VEREDELUNGEN
         </h1>
         <div class="grid-container grid-container--fit">
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
-                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2016/06/druckerei-rapp-druck-visitenkarte-heissfolienpraegung-silber.jpg">
+                    <p class="img_icon">3D</p>
+                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2016/06/druckerei-rapp-druck-visitenkarte-heissfolienpraegung-silber.jpg" loading="lazy">
                       <div class="img__description_layer">
                         <button class="hvr-radial-out buttonflip">
                           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hand-finger" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -499,20 +505,21 @@
                       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                       <path d="M9 11l-4 4l4 4m-4 -4h11a4 4 0 0 0 0 -8h-1" />
                     </svg></button>
-                  <iframe class="modell" title="Weiterverarbeitung" frameborder="0" width="100%" height="100%" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/faf947997ac4410d9cf264a15dafab82/embed?ui_theme=dark">
+                  <iframe class="modell" title="Weiterverarbeitung" frameborder="0" width="100%" height="100%" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/faf947997ac4410d9cf264a15dafab82/embed?ui_theme=dark" loading="lazy">
                   </iframe>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
-                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2016/05/druckerei-rapp-druck-offsetdruck-visitenkarte-blindpraegung.jpg">
+                    <p class="img_icon">3D</p>
+                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2016/05/druckerei-rapp-druck-offsetdruck-visitenkarte-blindpraegung.jpg" loading="lazy">
                       <div class="img__description_layer">
                         <button class="hvr-radial-out buttonflip">
                           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hand-finger" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -534,20 +541,20 @@
                       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                       <path d="M9 11l-4 4l4 4m-4 -4h11a4 4 0 0 0 0 -8h-1" />
                     </svg></button>
-                  <iframe class="modell" title="Weiterverarbeitung" frameborder="0" width="100%" height="100%" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/24b2de2ae5ff4cbba9bdaa2b33b109ee/embed?ui_theme=dark">
+                  <iframe class="modell" title="Weiterverarbeitung" frameborder="0" width="100%" height="100%" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/24b2de2ae5ff4cbba9bdaa2b33b109ee/embed?ui_theme=dark" loading="lazy">
                   </iframe>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
-                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2016/05/druckerei-rapp-druck-offsetdruck-imagebroschuere-uv-lackierung-softtouch-cellophanierung.jpg">
+                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2016/05/druckerei-rapp-druck-offsetdruck-imagebroschuere-uv-lackierung-softtouch-cellophanierung.jpg" loading="lazy">
                       <div class="img__description_layer">
                         <button class="hvr-radial-out buttonflip">
                           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hand-finger" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -569,20 +576,20 @@
                       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                       <path d="M9 11l-4 4l4 4m-4 -4h11a4 4 0 0 0 0 -8h-1" />
                     </svg></button>
-                  <iframe class="modell" title="Weiterverarbeitung" frameborder="0" width="100%" height="100%" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/faf947997ac4410d9cf264a15dafab82/embed?ui_theme=dark">
+                  <iframe class="modell" title="Weiterverarbeitung" frameborder="0" width="100%" height="100%" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/faf947997ac4410d9cf264a15dafab82/embed?ui_theme=dark" loading="lazy">
                   </iframe>
                 </div>
               </div>
             </div>
           </div>
           
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
-                      <img class="img__img" src="https://copyclara.de/sites/default/files/styles/maschine/public/Perforieren_0.jpg?itok=fPPw-DnJ">
+                      <img class="img__img" src="https://copyclara.de/sites/default/files/styles/maschine/public/Perforieren_0.jpg?itok=fPPw-DnJ" loading="lazy">
                       <div class="img__description_layer">
                         <p class="infobild img__description">PERFORIEREN</p>
                       </div>
@@ -594,13 +601,13 @@
             </div>
           </div>
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
-                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2016/05/druckerei-rapp-druck-offsetdruck-imagebroschuere-steppstichnaht-faden-rot.jpg">
+                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2016/05/druckerei-rapp-druck-offsetdruck-imagebroschuere-steppstichnaht-faden-rot.jpg" loading="lazy">
                       <div class="img__description_layer">
                         <p class="infobild img__description">STEPPSTICHNAHT</p>
                       </div>
@@ -612,13 +619,13 @@
             </div>
           </div>
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
-                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2016/06/druckerei-rapp-druck-broschuere-glanz-cellophanierung.jpg">
+                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2016/06/druckerei-rapp-druck-broschuere-glanz-cellophanierung.jpg" loading="lazy">
                       <div class="img__description_layer">
                         <p class="infobild img__description">CELLOPHANIERUNG</p>
                       </div>
@@ -630,13 +637,13 @@
             </div>
           </div>
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
-                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2016/05/druckerei-rapp-druck-offsetdruck-folder-drip-off-effekt.jpg">
+                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2016/05/druckerei-rapp-druck-offsetdruck-folder-drip-off-effekt.jpg" loading="lazy">
                       <div class="img__description_layer">
                         <p class="infobild img__description">DRIP-OFF</p>
                       </div>
@@ -648,13 +655,13 @@
             </div>
           </div>
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
-                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2016/06/druckerei-rapp-druck-4c-druck-chromolux-metallickarton.jpg">
+                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2016/06/druckerei-rapp-druck-4c-druck-chromolux-metallickarton.jpg" loading="lazy">
                       <div class="img__description_layer">
                         <p class="infobild img__description">METALLIC-KARTON</p>
                       </div>
@@ -666,13 +673,13 @@
             </div>
           </div>
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
-                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2016/05/druckerei-rapp-druck-offsetdruck-karte-laserstanzung.jpg">
+                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2016/05/druckerei-rapp-druck-offsetdruck-karte-laserstanzung.jpg" loading="lazy">
                       <div class="img__description_layer">
                         <p class="infobild img__description">LASERSTANZEN</p>
                       </div>
@@ -684,13 +691,13 @@
             </div>
           </div>
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
-                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2016/05/druckerei-rapp-druck-mailingkarte-letterpress.jpg">
+                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2016/05/druckerei-rapp-druck-mailingkarte-letterpress.jpg" loading="lazy">
                       <div class="img__description_layer">
                         <p class="infobild img__description">LETTERPRESS</p>
                       </div>
@@ -702,13 +709,13 @@
             </div>
           </div>
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
-                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2015/08/Rapp-Druck-Visitenkarte-kaschiert-lasergestanzt.jpg">
+                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2015/08/Rapp-Druck-Visitenkarte-kaschiert-lasergestanzt.jpg" loading="lazy">
                       <div class="img__description_layer">
                         <p class="infobild img__description">KASCHIEREN</p>
                       </div>
@@ -720,13 +727,13 @@
             </div>
           </div>
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
-                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2016/05/druckerei-rapp-druck-offsetdruck-stanzung_laubblatt.jpg">
+                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2016/05/druckerei-rapp-druck-offsetdruck-stanzung_laubblatt.jpg" loading="lazy">
                       <div class="img__description_layer">
                         <p class="infobild img__description">STANZEN</p>
                       </div>
@@ -738,13 +745,13 @@
             </div>
           </div>
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
-                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2016/05/druckerei-rapp-druck-offsetdruck-registerstanzung.jpg">
+                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2016/05/druckerei-rapp-druck-offsetdruck-registerstanzung.jpg" loading="lazy">
                       <div class="img__description_layer">
                         <p class="infobild img__description">REGISTERSTANZEN</p>
                       </div>
@@ -756,13 +763,13 @@
             </div>
           </div>
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
-                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2016/05/druckerei-rapp-druck-offsetdruck-konfektionierung.jpg">
+                      <img class="img__img" src="https://d2lsol421h6ysw.cloudfront.net/wp-content/uploads/2016/05/druckerei-rapp-druck-offsetdruck-konfektionierung.jpg" loading="lazy">
                       <div class="img__description_layer">
                         <p class="infobild img__description">KONFEKTIONIEREN</p>
                       </div>
@@ -774,15 +781,69 @@
             </div>
           </div>
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
-                      <img class="img__img" src="https://www.vogt-druck.de/wp-content/uploads/2020/04/Musterkarte_flashcolor_Fotografiert2_HP.jpg">
+                      <img class="img__img" src="https://www.vogt-druck.de/wp-content/uploads/2020/04/Musterkarte_flashcolor_Fotografiert2_HP.jpg" loading="lazy">
                       <div class="img__description_layer">
                         <p class="infobild img__description">FLASHCOLOR</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- front content -->
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="grid-element fade">
+            <div class="flip-container">
+              <div class="flipper">
+                <div class="front">
+                  <div class="infowrapper first">
+                    <div class="content img__wrap">
+                      <img class="img__img" src="https://www.vogt-druck.de/wp-content/uploads/2020/04/Bild_hydrocolor_R%C3%BCckseite_KarteHand_RGB_HP-1-1024x730.jpg" loading="lazy">
+                      <div class="img__description_layer">
+                        <p class="infobild img__description">HYDROCOLOR</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- front content -->
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="grid-element fade">
+            <div class="flip-container">
+              <div class="flipper">
+                <div class="front">
+                  <div class="infowrapper first">
+                    <div class="content img__wrap">
+                      <img class="img__img" src="https://www.vogt-druck.de/wp-content/uploads/2017/08/struktur-wolle-drucken-1024x684.jpg" loading="lazy">
+                      <div class="img__description_layer">
+                        <p class="infobild img__description">TOUCHCOLOR</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- front content -->
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="grid-element fade">
+            <div class="flip-container">
+              <div class="flipper">
+                <div class="front">
+                  <div class="infowrapper first">
+                    <div class="content img__wrap">
+                      <img class="img__img" src="https://www.vogt-druck.de/wp-content/uploads/2017/08/sandeffekt-drucken-1024x684.jpg" loading="lazy">
+                      <div class="img__description_layer">
+                        <p class="infobild img__description">SAND-EFFEKT</p>
                       </div>
                     </div>
                   </div>
@@ -799,18 +860,18 @@
       <!-- SECTION 4 -->
       <section id="content4" class="contentsec" data-number="4">
         <div>
-          <h1 class="uberschrift">Weiteres</h1>
+          <h1 class="uberschrift">WEITERES</h1>
         </div>
         
         <div class="grid-container grid-container--fit">
 
-          <div class="grid-element">
+          <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
-                      <img class="img__img" src="https://copyclara.de/sites/default/files/styles/maschine/public/Laminierung_0.jpg?itok=YxnP-IUH">
+                      <img class="img__img" src="https://copyclara.de/sites/default/files/styles/maschine/public/Laminierung_0.jpg?itok=YxnP-IUH" loading="lazy">
                       <div class="img__description_layer">
                         <button class="hvr-radial-out buttonflip">
                           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hand-finger" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -832,20 +893,20 @@
                       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                       <path d="M9 11l-4 4l4 4m-4 -4h11a4 4 0 0 0 0 -8h-1" />
                     </svg></button>
-                  <iframe class="modell" title="Weiterverarbeitung" frameborder="0" width="100%" height="100%" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/faf947997ac4410d9cf264a15dafab82/embed?ui_theme=dark">
+                  <iframe class="modell" title="Weiterverarbeitung" frameborder="0" width="100%" height="100%" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/faf947997ac4410d9cf264a15dafab82/embed?ui_theme=dark" loading="lazy">
                   </iframe>
                 </div>
               </div>
             </div>
           </div>
           
-           <div class="grid-element">
+           <div class="grid-element fade">
             <div class="flip-container">
               <div class="flipper">
                 <div class="front">
                   <div class="infowrapper first">
                     <div class="content img__wrap">
-                      <img class="img__img" src="https://copyclara.de/sites/default/files/styles/maschine/public/Schneidemaschine1_01.jpg?itok=Qi1tAL2-">
+                      <img class="img__img" src="https://copyclara.de/sites/default/files/styles/maschine/public/Schneidemaschine1_01.jpg?itok=Qi1tAL2-" loading="lazy">
                       <div class="img__description_layer">
                         <p class="infobild img__description">SCHNEIDEN</p>
                       </div>
@@ -871,142 +932,3 @@
   </footer>
 
 </html>
-
-<script>
-  $('.flip-container .flipper button').click(function() {
-  // flip back previous hovered element
-  $('.flip-container.hover').toggleClass('hover');
-  // flip current element
-  $(this).closest('.flip-container').toggleClass('hover');
-});
-
-$('.fbutton').click(function() {
-  // flip current element
-  $(this).closest('.flip-container').removeClass('hover');
-});
-
-
-
-//$(function () {
-//$(document).scroll(function () {
-//var $nav = $(".navbar-fixed-top");
-//$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-//});
-//});
-
-
-
-
-
-// SHRINKING HEADER EFFEKT beim scrollen von https://codepen.io/tomdurkin/pen/nvAjd
-
-$(function() {
-  var shrinkHeader = 100;
-  $(window).scroll(function() {
-    var scroll = getCurrentScroll();
-    if (scroll >= shrinkHeader) {
-      $('#navbar').addClass('shrink');
-    } else {
-      $('#navbar').removeClass('shrink');
-    }
-    if (scroll >= shrinkHeader) {
-      $('#burger').addClass('shrink');
-    } else {
-      $('#burger').removeClass('shrink');
-    }
-  });
-
-  function getCurrentScroll() {
-    return window.pageYOffset || document.documentElement.scrollTop;
-  }
-});
-
-
-
-// change activenav class, show the clicked element only and hide the others https://codepen.io/MohdHussein/pen/MWKEvdp
-
-
-// grab all the buttons
-let Buttons = document.querySelectorAll(".selectSection button");
-
-// loop through the buttons using for..of 
-for (let button of Buttons) {
-  // listen for a click event 
-  button.addEventListener('click', (e) => {
-    // et = event target
-    const et = e.target;
-    // slect activenav class
-    const activenav = document.querySelector(".activenav");
-    // check for the button that has activenav class and remove it
-    if (activenav) {
-      activenav.classList.remove("activenav");
-    }
-    // add activenav class to the clicked element 
-    et.classList.add("activenav");
-
-    // select all classes with the name content
-    let allContent = document.querySelectorAll('.contentsec');
-
-    // loop through all content classes
-    for (let contentsec of allContent) {
-      // display the content if the class has the same data-attribute as the button 
-      if (contentsec.getAttribute('data-number') === button.getAttribute('data-number')) {
-        contentsec.style.display = "block";
-      }
-      // if it's not equal then hide it.
-      else {
-        contentsec.style.display = "none";
-      }
-    }
-  });
-}
-
-
-
-
-let burger = document.getElementById('burger'),
-	 nav    = document.getElementById('main-nav'),
-	 slowmo = document.getElementById('slowmo');
-   
-burger.addEventListener('click', function(e){
-	this.classList.toggle('is-open');
-	nav.classList.toggle('is-open');
-});
-
-$(".main-nav").click(function(){
-  burger.click();
-})
-
-
-
-$(window).on("load",function(){
-     $(".loader-wrapper").fadeOut("slow");
-     setTimeout(
-  function() 
-  {
-  $("html, body").animate({ scrollTop: 0 }, "fast");
-  return false;
-    //do something special
-  }, 500);
-     
-});
-
-
-
-function SmoothVerticalScrolling(e, time, where) {
-    var eTop = e.getBoundingClientRect().top;
-    var eAmt = eTop / 100;
-    var curTime = 0;
-    while (curTime <= time) {
-        window.setTimeout(SVS_B, curTime, eAmt, where);
-        curTime += time / 100;
-    }
-}
-
-function SVS_B(eAmt, where) {
-    if(where == "center" || where == "")
-        window.scrollBy(0, eAmt / 2);
-    if (where == "top")
-        window.scrollBy(0, eAmt);
-}
-</script>
