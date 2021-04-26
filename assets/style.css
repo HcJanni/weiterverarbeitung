@@ -1278,56 +1278,23 @@ h2.footeruschrift {
     margin-bottom: -40px;
   }
 
-  .loader-wrapper p {
-    position: relative;
-    color: white !important;
-    top: -50px;
-    font-size: 2em !important;
-    font-weight: 200;
-    margin-top: 54vh !important;
-    opacity: 0.25;
-  }
+.loader-wrapper p {
+  top: -15px !important;
+  font-size: 2.5em !important;
+}
 
-  .loader-text-l {
-    left: -205px !important;
-  }
+.loader-text-l {
+  left: -205px !important;
+}
 
-  .loader-text-rest {
-    left: 235px !important;
-  }
+.loader-text-rest {
+  left: 235px !important;
+}
 
-  .loader-wrapper {
-    width: 100%;
-    height: 110vh;
-    top: 0;
-    position: fixed;
-    background-color: #242f3f;
-    display: flex;
-    z-index: 99999;
-    overflow: hidden !important;
-    justify-content: center;
-  }
-
-  .loader {
-    font-size: 5px;
-    margin-top: 50vh;
-    margin-left: -20em;
-    margin-right: -23em;
-    opacity: 0.25;
-    text-indent: -9999em;
-    width: 2.5em !important;
-    height: 2.5em !important;
-  }
-
-  .loader:before {
-    width: 50%;
-    height: 50%;
-  }
-
-  .loader:after {
-    width: 92%;
-    height: 92%;
-  }
+.loader {
+  width: 2.25em !important;
+  height: 2.25em !important;
+}
 }
 
 
