@@ -1164,26 +1164,40 @@ h2.footeruschrift {
   .img__wrap {
     height: 20em;
   }
+  
+  .cardtext {
+  padding-left: 25px;
+  padding-right: 25px;
+}
 
-  .infoflip {
-    margin-top: -9em;
-    font-size: 1em;
-  }
+.buttonflip {
+  width: 100px;
+  height: 100px;
+  top: 0;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0) !important;
+  overflow: hidden;
+  color: white;
+  transition: 0.1s;
+  position: absolute;
+  margin-top: 1em;
+  outline: none;
+}
 
-  .buttonflip {
-    width: 100px;
-    height: 100px;
-    top: 0;
-    border-radius: 50%;
-    border: 2px solid white;
-    background-color: rgba(0, 0, 0, 0) !important;
-    overflow: hidden;
-    color: white;
-    transition: 0.1s;
-    position: absolute;
-    margin-top: 15em;
-    outline: none;
-  }
+.buttonflip:hover .icon {
+  stroke: #1a1a1a;
+  transition: 0.1s;
+}
+
+.infoflip {
+  margin-top: 4em !important;
+  font-size: 1em;
+}
+
+.infobild {
+  font-size: 1em;
+}
 
   .fbutton {
     position: absolute;
@@ -1198,11 +1212,6 @@ h2.footeruschrift {
     font-weight: 800;
     left: 0.5em;
     top: 11.2em;
-  }
-
-  .infobild {
-    margin-top: 10em;
-    font-size: 1em;
   }
 
   .mobilecontainer {
