@@ -152,6 +152,18 @@ p.copyright {
   overflow: hidden;
 }
 
+#hintergrund amp-img {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  object-position: ;
+  align-items: center;
+  opacity: 3%;
+  animation: Pulsate 15s ease infinite;
+  overflow: hidden;
+}
+
 @-webkit-keyframes Pulsate
 
 /*Safari and Chrome*/
